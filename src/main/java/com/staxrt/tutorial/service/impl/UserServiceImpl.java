@@ -44,12 +44,7 @@ public class UserServiceImpl implements IUserService {
 		userRepository.deleteById(id);
 	}
 
-	@Override
-	public User listarIdCliente(Long idCliente) {
-		// TODO Auto-generated method stub
-		return userRepository.findById(idCliente).get();
-	}
-
+	
 	
 
 	
