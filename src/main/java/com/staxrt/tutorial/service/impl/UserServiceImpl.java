@@ -44,6 +44,12 @@ public class UserServiceImpl implements IUserService {
 		userRepository.deleteById(id);
 	}
 
+	@Override
+	public User listaIdUser(Long idUser) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 	
 	
 
