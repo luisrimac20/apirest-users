@@ -13,8 +13,5 @@ public interface IUserService {
     User creadUser(User user);
     User updateUser(User user);
     void deleteUser(Long id);
-    
-    User listarIdCliente(Long idCliente);
-    
-    
+
 }
