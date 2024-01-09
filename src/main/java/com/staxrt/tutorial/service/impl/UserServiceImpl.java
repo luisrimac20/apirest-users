@@ -47,7 +47,7 @@ public class UserServiceImpl implements IUserService {
 	@Override
 	public User listaIdUser(Long idUser) {
 		// TODO Auto-generated method stub
-		return null;
+		return userRepository.findById(idUser).get();
 	}
 
 	
